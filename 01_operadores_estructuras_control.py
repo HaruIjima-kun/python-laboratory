@@ -107,12 +107,15 @@ print("El resultado de 1 in lista1 =", en_lista)
 print("El resultado de 4 not in lista1 =", no_en_lista)
 
 # Operadores de bits
-bitwise_and = a & b
-bitwise_or = a | b
-bitwise_xor = a ^ b
-bitwise_not = -a
-left_shift = a << 1
-right_shift = a >> 1
+a = 10  # Representación binaria: 0b0101
+b = 3  # Representación binaria: 0b0011
+
+bitwise_and = a & b     # Representación binaria del resultado: 0b0001 (decimal: 1) 
+bitwise_or = a | b      # Representación binaria del resultado: 0b0111 (decimal: 7)
+bitwise_xor = a ^ b     # Representación binaria del resultado: 0b0110 (decimal: 6)
+bitwise_not = -a        # Representación binaria del resultado: (varía según la representación interna del número en binario)
+left_shift = a << 1     # Representación binaria del resultado: 0b1010 (decimal: 10)
+right_shift = a >> 1    # Representación binaria del resultado: 0b0010 (decimal: 2)
 
 
 print("\n     OPERADORES DE BITS")
